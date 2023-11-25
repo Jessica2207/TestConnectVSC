@@ -5,3 +5,7 @@ fn main() {
     io::stdin().read_line(&mut input_string).unwrap();
     println!("{}", input_string.trim())
 }
+
+fn printing() {
+    println!("Hello, World!");
+}
